@@ -1,0 +1,13 @@
+---
+buildName: "dhregistration"
+links:
+  Git: "https://github.com/biggreenegg/dhRegistration.git"
+  Job: "http://192.168.64.5:31632/job/dhregistration"
+  Production: "http://10.0.0.39:80/kubernetes/pods?namespace=default-production"
+  Staging: "http://10.0.0.39:80/kubernetes/pods?namespace=default-staging"
+  Testing: "http://10.0.0.39:80/kubernetes/pods?namespace=default-testing"
+environments:
+  Testing: "default-testing"
+  Staging: "default-staging"
+  Production: "default-production"
+useLocalFlow: true
