@@ -1,8 +1,8 @@
 ---
-buildName: "dhregistration"
+buildName: "dhreg"
 links:
-  Git: "https://github.com/biggreenegg/dhRegistration.git"
-  Job: "http://192.168.64.5:31632/job/dhregistration"
+  Git: "https://github.com/biggreenegg/dhregistration.git"
+  Job: "http://192.168.64.5:31632/job/dhreg"
   Production: "http://10.0.0.39:80/kubernetes/pods?namespace=default-production"
   Staging: "http://10.0.0.39:80/kubernetes/pods?namespace=default-staging"
   Testing: "http://10.0.0.39:80/kubernetes/pods?namespace=default-testing"
